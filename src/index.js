@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Memorize } from './components/06-memos/Memorize'
+import { Memohook } from './components/06-memos/MemoHook';
+
 
 
 
 ReactDOM.render(
 
-    <Memorize />,
+    <Memohook />,
 
   document.getElementById('root')
 );
