@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks'
+import { RealExampleRef } from './components/04-useRef/RealExampleRef'
 
 
 
 ReactDOM.render(
 
-    <MultipleCustomHooks />,
+    <RealExampleRef />,
 
   document.getElementById('root')
 );
